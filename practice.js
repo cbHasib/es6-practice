@@ -531,7 +531,7 @@ My contact Number is: ${phone}
 এর উপাদান কে destructuring করে 'three' নামক একটা ভেরিয়েবল এ রাখবে। 
 */
 const numArray = ['Asif', 'Marzia', 'Hasib', 'Aurony'];
-const [fisrt, second, third] = numArray;
+const [, , third] = numArray;
 // console.log(third);
 
 
